@@ -12,5 +12,5 @@ bundle
 #### Running the test
 
 ```
-rake
+JRUBY_OPTS="--server -J-Xmx2048m" rake
 ```
